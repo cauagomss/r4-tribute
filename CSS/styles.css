@@ -1,0 +1,92 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* ESTILO DO CABEÇALHO */
+
+.interface {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    background-color: #000;
+}
+
+.interface a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block; 
+    /* REGRA DE INLINE BLOCK PARA A APLICAÇÃO DO SCALE */
+}
+
+a:hover {
+    color: #fff;
+    transform: scale(1.05);
+    /* TRANSIÇÃO É O ESSENCIAL */
+    transition: .2s;
+}
+
+.logo a:hover{
+    transform: none;
+}
+
+.nav-menu {
+    list-style: none;
+}   
+
+.nav-menu li{
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.btn-login {
+    padding: 10px 30px;
+    border: 0px;
+    font-size: 18x;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    opacity: 0.7;
+    transition: 0;
+}
+
+.bg-main {
+    background: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 85vh;
+}
+
+.section-1 {
+    height: 300px;
+    width: 200px;
+}
+
+.logo img{
+    height: 80px;
+}
+
+.user-button {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.user-button img{
+    height: 20px;
+    background-color: transparent;
+}
